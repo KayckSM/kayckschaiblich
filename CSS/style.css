@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=DynaPuff:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Story+Script&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("../images/background.png");
+    background-size:cover;
+    background-position:center;
+}
+
+header{
+    position:sticky;
+    top:0;
+    text-align: center;
+    color:rgb(192, 184, 172);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left: 2px dashed rgb(77, 47, 47);
+    border-right: 2px dashed rgb(77, 47, 47);
+    font-size:15px;
+    font-family: "DynaPuff", system-ui;
+    z-index:100;
+}
+
+h1{
+    text-shadow: 3px 3px 3px rgb(189, 9, 189)
+}
+
+h2{
+    text-shadow: 2px 2px 2px rgb(107, 35, 107)
+}
+
+h1:hover{
+    font-size: 225%;
+    transition:0.5s;
+    cursor:default;
+}
+
+h1:not(:hover){
+    font-size: 200%;
+    transition:0.5s;
+    cursor:default;
+}
+
+h2:hover{
+    font-size: 215%;
+    transition:0.5s;
+    cursor:default;
+}
+
+h2:not(:hover){
+    font-size: 200%;
+    transition:0.5s;
+    cursor:default;
+}
+
+nav{
+    display:flex;
+    flex:row;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: "DynaPuff", system-ui;
+}
+
+section{
+    display:inline-block;
+}
+
+section p,h2{
+    text-align: center;
+    color:rgb(223, 223, 223);
+    line-height: 20px;
+    word-spacing: 6px;
+    margin-top:10px;
+    font-family: "Story Script", sans-serif;
+}
+
+section img{
+    float:right;
+    float:top;
+    position:relative;
+    width: 30%;
+    opacity:0.5;
+    top:10%;
+}
+
+.cards{
+    display:flex;
+    flex-grow:1;
+    flex-direction:row;
+}
+
+.card{
+    background-color:rgb(49, 49, 49);
+    height:250px;
+    overflow:hidden;
+    box-shadow: 3px 3px 3px 0px #9c9c9c;
+    margin-right:1%;
+    margin-left:1%;
+}
+
+.card img{
+    width:100%;
+    position:relative;
+    top:0;
+}
+
+.card p{
+    text-overflow:ellipsis;
+}
+
+.card:hover{
+    height:520px;
+    transition:1s;
+    cursor:default;
+}
+
+.card:not(:hover){
+    height:250px;
+    transition:1s;
+    cursor:default;
+}
+
+.button{
+    background-color: rgb(77, 47, 47);
+    color:aliceblue;
+    padding: 6px;
+    border: rgb(77, 47, 47);
+    border-radius:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    box-shadow: 2px 2px 2px rgb(189, 9, 189)
+}
+
+.button:hover{
+    background-color: rgb(117, 9, 189);
+    color:rgb(56, 61, 60);
+    padding: 10px;
+    transition:0.5s;
+    cursor:pointer;
+}
+
+.button:not(:hover){
+    background-color: rgb(77, 47, 47);
+    color:aliceblue;
+    padding: 6px;
+    transition:0.5s;
+    cursor:default;
+}
+
+img:hover{
+    opacity:0.8;
+    transition:0.5s;
+    cursor:default;
+}
+
+img:not(:hover){
+    opacity:0.5;
+    transition:0.5s;
+    cursor:default;
+}
+
+.text1{
+    text-align: center;
+    color:rgb(187, 187, 187)
+}
+
+.text2{
+    text-align: center;
+    color:rgb(128, 128, 128);
+}
+
+.text3{
+    text-align: center;
+    color:rgb(77, 77, 77);
+}
+
+#unique{
+    text-align: center;
+    color:rgb(189, 9, 189);
+}
+
+a{
+    text-decoration: none;
+}
+
+p:hover{
+    color:rgb(189, 9, 189);
+    transition:0.5s;
+    cursor:default;
+}
+
+#fixedlogo{
+    width:100px;
+    position:fixed;
+    bottom: 20px;
+    right: 5px;
+}
+
+.background-audio{
+    display:none;
+}
+
+footer{
+    top:0;
+    text-align: center;
+    color:rgb(72, 72, 114);
+    background: linear-gradient(0deg, rgb(10, 10, 10) 0%, rgb(15, 15, 32) 100%);
+    font-size:15px;
+    font-family: "DynaPuff", system-ui;
+    z-index:50;
+    margin-top:50px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-top: 10px dashed rgb(6, 6, 19);
+    opacity: 0.5;
+}

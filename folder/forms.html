@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>
+        Formulários
+    </h1>
+    <a href="../index.html">Voltar</a>
+    <hr>
+    <form>
+        <label for="input1">Qualquer coisa:</label>
+        <input id="input1" type="text" placeholder="Digite qualquer coisa" required>
+
+        <br>
+
+        <label for="input2">Email:</label>
+        <input id="input2" type="email" placeholder="Digite seu email" required>
+
+        <br>
+
+        <label for="input3">Senha:</label>
+        <input id="input3" type="password" placeholder="Digite sua senha" required>
+
+        <h2> 
+            Escolha um número:
+        </h2>
+
+        <label for="input4">1</label>
+        <input type="radio" id="input4" name="número" value="1" required>
+
+        <br>
+        <label for="input5">2</label>
+        <input type="radio" id="input5" name="número" value="2" required>
+
+        <br>
+
+        <label for="input6">3</label>
+        <input type="radio" id="input6" name="número" value="3" required>
+
+        <br>
+
+        <h2> 
+            Escolha algo:
+        </h2>
+
+        <label for="input7">Mais</label>
+        <input type="checkbox" id="input7" name="Mais" value="More">
+
+        <br>
+
+        <label for="input8">Menos</label>
+        <input type="checkbox" id="input8" name="Menos" value="Less">
+
+        <br>
+
+        <h2>
+            Escolha uma cor:
+        </h2>
+
+        <select required>
+            <option selected disabled value="">Selecione uma opção</option>
+            <option value="red">Vermelho</option>
+            <option value="yellow">Amarelo</option>
+            <option value="blue">Azul</option>
+            <option value="green">Verde</option>
+            <option value="pink">Rosa</option>
+            <option value="black">Preto</option>
+        </select>
+
+        <br>
+
+        <h2>
+            Digite uma mensagem:
+        </h2>
+
+        <textarea placeholder="Digite sua mensagem aqui" cols="30" rows="10" required></textarea>
+
+        <hr>
+
+        <input type="submit" value="Enviar Formulário">
+    </form>
+
+    <button>Botão</button>
+</body>
+</html>

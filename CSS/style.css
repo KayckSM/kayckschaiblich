@@ -10,6 +10,7 @@ body{
     background-image:url("../images/background.png");
     background-size:cover;
     background-position:center;
+    user-select:none;
 }
 
 header{
@@ -220,4 +221,5 @@ footer{
     padding-bottom:30px;
     border-top: 10px dashed rgb(6, 6, 19);
     opacity: 0.5;
+
 }
